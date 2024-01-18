@@ -1,0 +1,75 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+h1{
+    background-color: rgb(156, 173, 255);
+    font-size: 3rem;
+    width: max-content;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+a{
+    color: rgb(30, 30, 30);
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.repo-list {
+    margin-top: 20px;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.page-item {
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.active {
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+input[type="text"] {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 15px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
